@@ -34,8 +34,8 @@ tensorboard –logdir=./log3755/train
 ![Image text](https://github.com/HuiyanWen/resnet_tensorflow/blob/master/imgs/8.png)
 ![Image text](https://github.com/HuiyanWen/resnet_tensorflow/blob/master/imgs/9.png)
 ## How to optimize the parameters
-First, you can change the learning_rate, decay_step, optimizer in ./main.py, I suggested that you can set them to 0.0001, 0.9, adam.
-Second, weight_decay, batch_norm_decay, batch_norm_epsilon in ./model/resnet_utils.py also can influence the accuracy.
+Firstly, you can change the learning_rate, decay_step, optimizer in ./main.py, I suggested that you can set them to 0.0001, 0.9, adam.
+Secondly, weight_decay, batch_norm_decay, batch_norm_epsilon in ./model/resnet_utils.py also can influence the accuracy.
 
 ## Get the checkpoints and images
 https://pan.baidu.com/s/1AnRdHv_ff-513OI5n7Cepg code: iiww
