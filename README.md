@@ -2,8 +2,11 @@
 I've uploaded the partial gnt dataset, you can transfer it to any form as you need. Here, you can use resnet_tensorflow1.12/tfrecord_op/gnt2tfrecord.py to convert gnt to tfrecord within one minutes. After activating tensorflow-gpu, you can print python gnt2tfrecord.py -h to get the helpful information about parameters.
 
 When you want to generate the training set, it's matter that to set the shuffle=1, or the network will be hard to converge.
+
 ![Image text](https://github.com/HuiyanWen/resnet_tensorflow/blob/master/imgs/2.png)
+
 If you are in Windows, Ubuntu or other systems which have the GUI, you can verify tfrecords by printing the images and theirs label. The python document involved is resnet_tensorflow1.12/tfrecord_op/test_tfrecord.py.
+
 ![Image text](https://github.com/HuiyanWen/resnet_tensorflow/blob/master/imgs/3.png)
 ## Train, Validate and Inference
 All of the three sections were wrote in ./main.py, and you can print python main.py -h to get the helpful information.
